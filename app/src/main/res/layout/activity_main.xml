@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FAF4C0">
 
     <TextView
         android:id="@+id/textview1"
@@ -33,8 +34,10 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="LIKE COLOR"
+        android:text="TIMETABLE"
         android:textSize="20sp" />
+
+
 
     <Button
         android:id="@+id/dialogbtn"
@@ -44,6 +47,8 @@
         android:text="SCHEDULE"
         android:textSize="20sp"
         android:onClick="ondialogbtnClicked"/>
+
+
 
     <ImageView
         android:layout_width="wrap_content"
